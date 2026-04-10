@@ -72,7 +72,7 @@ Authorization: Bearer <your_token>
 
 ```bash
 git clone https://github.com/adityazinj/jirataskmanager.git
-
+cd jirataskmanager
 # Create virtual environment
  virtualenv venv
 
