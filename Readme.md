@@ -71,10 +71,23 @@ Authorization: Bearer <your_token>
 ## ⚙️ Setup Instructions
 
 ```bash
-git clone <your_repo_url>
+git clone https://github.com/adityazinj/jirataskmanager.git
+
+# Create virtual environment
+ virtualenv venv
+
+# Activate virtual environment
+
+ # Windows:
+  venv\Scripts\activate
+ 
+ # Mac/Linux:
+  source venv/bin/activate
+
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+
 ```
 
 ---
